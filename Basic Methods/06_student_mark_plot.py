@@ -10,7 +10,7 @@ csa = np.array([80, 81, 79, 85])
 dbe = np.array([91, 85, 89, 85])
 total_mark = cds + math + os + csa + dbe
 
-#plotting graph
+#plotting bar graph
 plt.bar(students, total_mark,width=0.4)
 plt.title("Student's Mark")
 plt.xlabel('Students')
