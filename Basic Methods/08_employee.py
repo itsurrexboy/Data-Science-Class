@@ -6,7 +6,6 @@ id = emps['emp_id']
 name = emps['emp_name']
 sal = emps['salary']
 print(emps.shape)
-#l = list(emps.info())
-#print(l)
-#print("Total number of Employees are - ", len(emps))
-#print('List of Employees having salary more than 20000\n',emps[sal>=20000])
+
+print("Total number of Employees are - ", len(emps))
+print('\nList of Employees having salary more than 20000\n',emps[sal>=20000])
